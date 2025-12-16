@@ -31,3 +31,21 @@ Install required dependencies first:
 
 ```bash
 pip install numpy scipy scikit-image pandas tifffile
+(Additional dependencies may be required depending on the chosen methods.)
+
+Basic usage
+python
+复制代码
+from simple_st import run_pipeline
+
+run_pipeline(
+    input_dir="data/input_images",
+    output_dir="data/output_results"
+)
+Advanced users can call individual functions directly.
+
+Project status
+This project is under active development.
+The API may change until a stable release is reached.
+
+
