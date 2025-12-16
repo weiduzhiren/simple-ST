@@ -34,8 +34,7 @@ pip install numpy scipy scikit-image pandas tifffile
 (Additional dependencies may be required depending on the chosen methods.)
 
 Basic usage
-python
-复制代码
+
 from simple_st import run_pipeline
 
 run_pipeline(
